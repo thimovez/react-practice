@@ -16,6 +16,7 @@ class ClassCounter extends React.Component {
   }
 
   decrement() {
+
     this.setState({count: this.state.count - 1})
   }
   render() {
